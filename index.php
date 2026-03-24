@@ -1,0 +1,48 @@
+<?php 
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+
+        <form method="post" action="reception.php">
+            <label for="email">Email</label>
+            <br>
+            <input 
+                type="text"
+                id="email" 
+                placeholder="Saisir votre email"
+                value=""
+                class=""
+                name="emailName"
+                
+            >
+            <br>
+            <label for="password">Mot de passe</label>
+            <br>
+            <input 
+                type="password"
+                id="password" 
+                placeholder="Saisir votre mot de passe"
+                value=""
+                class=""
+                name="passwordName"
+            >
+            <br>
+
+            <input type="submit" value="S'inscrire">
+            
+            <!-- 
+                ou
+                <button></button>
+            -->
+        </form>
+
+    </body>
+</html>
